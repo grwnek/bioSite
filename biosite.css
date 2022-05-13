@@ -20,6 +20,13 @@
     color: #4F3674;
 }
 
+header {
+    background-color: #3c275a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
 #image-gallery {
     margin-top: 10%;
     display: grid;
@@ -89,6 +96,31 @@
 }
 
 img {
-    width: 400px;
-    height: 350px;
+    width: 350px;
+    height: 300px;
+}
+
+footer {
+    background-color: #4F3674;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #FFF;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    font-size: .75em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
